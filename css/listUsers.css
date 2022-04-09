@@ -1,0 +1,81 @@
+.enviar {
+	float: right !important;
+	height: 100%;
+}
+
+.caixa3 {
+	position: relative;
+	height: 50px;
+	width: 90%;
+	margin: 0 auto;
+}
+
+#pesquisa{
+	height: 30px;
+	width: 405px;
+	float: right;
+}
+
+#filtrar-tabela{
+	position: relative;
+	width: 300px;
+	float: left;
+}
+
+.enviar1 {
+	position: relative;
+	float: right;
+	width: 100px;
+	height: 100%;
+	background: rgb(75, 92, 104);
+	color: white;
+	font-weight: bold;
+	font-size: 12px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 375px) {
+	#h1logo {
+		top: 50px !important;
+		font-size: 0.9em !important;
+	}
+
+	#h1seg {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 475px) {
+	#h1seg {
+		display: none !important;
+	}
+	.enviar {
+		width: 100%;
+	}
+	.caixa3 {
+		height: 60px;
+	}
+	#pesquisa {
+		white-space: normal;
+		height: 60px;
+		width: 100%;
+		margin: 0 auto;
+	}
+	.enviar1 {
+		position: relative;
+		float: left;
+		width: 100px;
+		height: 50%;
+	}
+	#filtrar-tabela{
+		position: relative;
+		width:100%;
+		float: right;
+	}
+
+	.corpoTabela{
+		width: 99%;
+	}
+}

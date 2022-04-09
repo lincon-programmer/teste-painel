@@ -1,0 +1,70 @@
+<DOCTYPE HTML>
+	<html lang="pt-br">
+        <head>
+            <!-- Required meta tags -->
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+            <link rel="stylesheet" href="css/registerUser.css">
+            <link rel="stylesheet" href="css/default.css">
+            <link rel="stylesheet" href="css/reset.css">
+        
+                <!-- BOOTSTRAP CSS -->
+            <link href="css/bootstrap.min.css" rel="stylesheet">
+
+            <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+            <script src="js/validation.js"></script>
+            <script src="js/config.js"></script>
+        </head>
+        <body>
+            <header id="header1">
+                <div class="caixa">
+                    <h1><img class="logo" src="img/LogoMartins.png" alt="logo Grupo Martins"></h1>
+                    <h1 id="h1logo">/     CENTRAL DE PLANOS</h1>
+                </div>
+            </header>
+
+            <header id="header2">
+                <div class="caixa1">
+                    <h1 id="h1seg">Cadastrar Usuários</h1>
+                </div>
+            </header>
+    
+            <main class="corpo">
+                <form class="row g-3">
+                    <div class="col-md-6">
+                      <label for="name" class="form-label">Name</label>
+                      <input type="text" class="form-control" id="name">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="email" class="form-label">Email</label>
+                      <input type="email" class="form-control" id="email" placeholder="youremail@domain.com">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="password" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="password">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="confPass" class="form-label">Confirm your password</label>
+                        <input type="password" class="form-control" id="confPass">
+                    </div>
+                    <div class="col-md-2">
+                      <label for="phone" class="form-label">Phone</label>
+                      <input type="text" class="form-control" id="phone" placeholder="(xx)xxxxx-xxxx">
+                    </div>
+                    <div class="col-12">
+                      <button type="button" class="btn btn-primary" onclick="buttonRegister()">Sign in</button>
+                    </div>
+                  </form>
+            </main>
+
+            <footer>
+                <img id="logo" src="img/LogoMartins.png" alt="logo Logo Grupo Martins Brasil">
+                <p class="copyright">&copy; Copyright Grupo Martins Brasil</p>
+            </footer>
+
+            <!-- Option 1: Bootstrap Bundle with Popper -->
+            <script src="js/bootstrap.bundle.min.js"></script>
+            <script src="js/registerUser.js"></script>
+        </body>
+    </html>

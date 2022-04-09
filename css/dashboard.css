@@ -1,0 +1,22 @@
+nav {
+	float: right;
+	position: relative;
+	font-size: 1.3em;
+	top: -8px;
+}
+
+.nav-link:hover {
+	color: #C78C19 !important;
+	text-decoration: underline;
+}
+
+.container {
+	height: 100%;
+}
+
+@media only screen and (max-width: 375px) {
+	#h1logo {
+		top: 50px !important;
+		font-size: 0.9em !important;
+	}
+}
